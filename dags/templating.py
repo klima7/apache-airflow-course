@@ -13,6 +13,11 @@ def add_one(num):
     user_defined_macros={"get_number": get_number},
     user_defined_filters={"add_one": add_one},
     default_args={"author": "Łukasz Klimkiewicz"},
+    owner_links={
+        "data-team": "https://company.com/data-team",
+        "slack": "https://company.slack.com/archives/data-team",
+        "docs": "https://docs.company.com/dags/my-dag"
+    }
 )
 def templating_dag():
     
